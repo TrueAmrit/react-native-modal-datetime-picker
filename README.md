@@ -1,3 +1,5 @@
+# This Fork Provide Fix for default Prop warning issue #748
+
 # react-native-modal-datetime-picker
 
 [![npm version](https://badge.fury.io/js/react-native-modal-datetime-picker.svg)](https://badge.fury.io/js/react-native-modal-datetime-picker)
