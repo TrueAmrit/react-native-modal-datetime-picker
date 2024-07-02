@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState, memo } from "react";
 import PropTypes from "prop-types";
-import DateTimePicker from "@react-native-community/datetimepicker";
+import { DateTimePickerAndroid } from "@react-native-community/datetimepicker";
 
 // Memo workaround for https://github.com/react-native-community/datetimepicker/issues/54
 const areEqual = (prevProps, nextProps) => {
@@ -59,7 +59,7 @@ const DateTimePickerModal = memo(
     };
 
     return (
-      <DateTimePicker
+      <DateTimePickerAndroid
         {...otherProps}
         mode={currentMode}
         value={date}
